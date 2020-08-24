@@ -7,20 +7,29 @@ import { AppComponent } from "./app.component";
 import { IndexComponent } from "./index/index.component";
 import { PostComponent } from "./post/post.component";
 import { HttpClientModule, HttpClient } from "@angular/common/http";
-import { AboutComponent } from './about/about.component';
-import { ContactComponent } from './contact/contact.component';
-import { ProjectsComponent } from './projects/projects.component';
-import { BlogComponent } from './blog/blog.component';
+import { AboutComponent } from "./about/about.component";
+import { ContactComponent } from "./contact/contact.component";
+import { ProjectsComponent } from "./projects/projects.component";
+import { BlogComponent } from "./blog/blog.component";
+import { HashLocationStrategy, LocationStrategy } from "@angular/common";
 
 @NgModule({
-  declarations: [AppComponent, IndexComponent, PostComponent, AboutComponent, ContactComponent, ProjectsComponent, BlogComponent],
+  declarations: [
+    AppComponent,
+    IndexComponent,
+    PostComponent,
+    AboutComponent,
+    ContactComponent,
+    ProjectsComponent,
+    BlogComponent,
+  ],
   imports: [
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
     MarkdownModule.forRoot({ loader: HttpClient }),
   ],
-  providers: [],
+  providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
