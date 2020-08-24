@@ -12,4 +12,16 @@ export class PostService {
   getPosts() {
     return this.posts.sort((a, b) => b.date.getTime() - a.date.getTime());
   }
+
+  getBlogPosts() {
+    return this.posts
+      .filter((post) => post.type === "blog")
+      .sort((a, b) => b.date.getTime() - a.date.getTime());
+  }
+
+  getProjects() {
+    return this.posts
+      .filter((post) => post.type === "project")
+      .sort((a, b) => b.date.getTime() - a.date.getTime());
+  }
 }

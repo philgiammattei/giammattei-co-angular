@@ -1,1 +1,5 @@
-<p>coming soon!</p>
+<app-post
+  *ngFor="let project of projects"
+  [md]="project.md"
+  [type]="project.type"
+></app-post>

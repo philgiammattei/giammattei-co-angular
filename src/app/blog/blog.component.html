@@ -1,1 +1,5 @@
-<p>coming soon!</p>
+<app-post
+  *ngFor="let blog of blogPosts"
+  [md]="blog.md"
+  [type]="blog.type"
+></app-post>
