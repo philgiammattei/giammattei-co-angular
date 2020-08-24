@@ -36,11 +36,11 @@
 <div class="mobile-only">
   <nav *ngIf="hamburgerShow">
     <ul class="main-nav">
-      <li><a routerLink="">HOME</a></li>
-      <li><a routerLink="about">ABOUT</a></li>
-      <li><a routerLink="projects">PROJECTS</a></li>
-      <li><a routerLink="blog">BLOG</a></li>
-      <li><a routerLInk="contact">CONTACT</a></li>
+      <li><a routerLink="" (click)="toggle()">HOME</a></li>
+      <li><a routerLink="about" (click)="toggle()">ABOUT</a></li>
+      <li><a routerLink="projects" (click)="toggle()">PROJECTS</a></li>
+      <li><a routerLink="blog" (click)="toggle()">BLOG</a></li>
+      <li><a routerLInk="contact" (click)="toggle()">CONTACT</a></li>
     </ul>
   </nav>
 </div>
