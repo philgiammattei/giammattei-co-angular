@@ -1,4 +1,7 @@
 <div class="container">
-  <markdown [src]="'assets/md/posts/' + md + '.md'"></markdown>
+  <markdown
+    [src]="'assets/md/posts/' + md + '.md'"
+    (load)="onRender(event)"
+  ></markdown>
   <hr />
 </div>

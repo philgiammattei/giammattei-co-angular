@@ -12,6 +12,7 @@ import { ContactComponent } from "./contact/contact.component";
 import { ProjectsComponent } from "./projects/projects.component";
 import { BlogComponent } from "./blog/blog.component";
 import { HashLocationStrategy, LocationStrategy } from "@angular/common";
+import { PostPageComponent } from './post-page/post-page.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { HashLocationStrategy, LocationStrategy } from "@angular/common";
     ContactComponent,
     ProjectsComponent,
     BlogComponent,
+    PostPageComponent,
   ],
   imports: [
     BrowserModule,
