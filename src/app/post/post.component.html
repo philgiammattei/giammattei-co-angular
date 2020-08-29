@@ -1,4 +1,7 @@
 <div class="container">
+  <a routerLink="/post/{{ md }}" class="post-title" *ngIf="titleLink"
+    ><h1>{{ title }}</h1></a
+  >
   <markdown
     [id]="this.md"
     class="md"
