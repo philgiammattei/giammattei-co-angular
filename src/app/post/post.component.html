@@ -1,5 +1,7 @@
 <div class="container">
   <markdown
+    [id]="this.md"
+    class="md"
     [src]="'assets/md/posts/' + md + '.md'"
     (load)="onRender($event)"
   ></markdown>

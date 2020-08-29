@@ -1,4 +1,4 @@
-<h1 id="app-band"><a href="/post/app-band">I’m Writing an App for my Band.</a></h1>
+I’m Writing an App for my Band.
 
 ##### 04/18/2020
 
