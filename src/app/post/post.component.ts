@@ -17,7 +17,7 @@ export class PostComponent implements OnInit {
     //turn title into link to post page
     let title = document.getElementById(this.md);
     let link = document.createElement("a");
-    link.href = `/post/${this.md}`;
+    link.href = `/#/post/${this.md}`;
     link.innerHTML = title.childNodes[0].nodeValue;
     title.after(link);
   }
