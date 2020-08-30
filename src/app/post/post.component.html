@@ -1,7 +1,10 @@
 <div class="container">
-  <a routerLink="/post/{{ md }}" class="post-title" *ngIf="titleLink"
-    ><h1>{{ title }}</h1></a
-  >
+  <h1>
+    <a routerLink="/post/{{ md }}" class="post-title" *ngIf="titleLink">{{
+      title
+    }}</a>
+  </h1>
+
   <markdown
     [id]="this.md"
     class="md"
