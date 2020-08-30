@@ -1,4 +1,4 @@
-<h1 id="dicematch">Dicematch</h1>
+# DiceMatch
 
 #### 02/16/2020
 

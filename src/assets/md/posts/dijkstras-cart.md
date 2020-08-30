@@ -1,4 +1,4 @@
-<h1 id="dijkstras-cart">Dijkstra's Cart</h1>
+# Dijkstra's Cart
 
 [Dijkstra's Algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm) helps you find the shortest path through a graph. Dijkstra's Cart is an automagic shopping list to help you chart the most efficient route through your neighborhood grocery store.
 

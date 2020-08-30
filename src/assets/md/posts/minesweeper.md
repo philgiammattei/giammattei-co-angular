@@ -1,4 +1,4 @@
-<h1 id="minesweeper">Minesweeper</h1>
+# Minesweeper
 
 #### 09/28/2019
 

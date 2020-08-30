@@ -40,4 +40,9 @@ export const Posts: Post[] = [
     type: "project",
     date: new Date("09/28/2019"),
   },
+  {
+    md: "giammattei-2",
+    type: "project",
+    date: new Date("08/30/2020"),
+  },
 ];
