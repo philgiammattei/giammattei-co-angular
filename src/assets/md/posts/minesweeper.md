@@ -4,6 +4,8 @@
 
 ![Minesweeper](assets/images/minesweeper-cover.png)
 
+# [Play Minesweeper](https://mine-craft-sweeper.netlify.app/)
+
 Long ago, I made a version of Minesweeper in Java for a school project. It was ugly, but it had all the functionality that you would expect if you have played the Windows-bundled game at any point in the 1990s.
 
 As a project for my developer portfolio, I wanted to revisit this concept, with some additional requirements:
