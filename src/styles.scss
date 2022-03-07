@@ -475,8 +475,7 @@ lilguy-component {
   }
   .socialbuttons {
     display: flex;
-    justify-content: space-between;
-    width: 150px;
+    column-gap: 1rem;
   }
   .socialbuttons a img {
     height: 30px;
